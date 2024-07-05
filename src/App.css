@@ -1,0 +1,72 @@
+body{ 
+  background-color: rgb(238, 238, 185);
+}
+.child-div {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24, 31, 24);
+  color: white;
+  padding: 20px;
+  border-radius: 1.5rem;
+  margin: 0px 2px 2px -460px;
+  margin-top: 45px;
+  max-width: 80%;
+
+}
+
+.heading {
+  margin-top: 20px;
+  font-family:  "Dancing Script", cursive;
+   text-align: left;
+}
+
+.textdiv {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+ 
+}
+
+.textpara {
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(227, 158, 158);
+  text-align: left;
+}
+.custom-arrow {
+  background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.custom-next-arrow {
+  right: 10px;
+}
+
+.custom-prev-arrow {
+  left: 140px;
+}
+.slider{
+  display: flex;
+  justify-content: space-between;
+}
+#second {
+  margin-right: 140px;
+}
+#third {
+  margin-right: 280px;
+}
+#fourth {
+  margin-right: 420px; 
+}
+#fifth {
+  margin-right: 570px; 
+}
+
